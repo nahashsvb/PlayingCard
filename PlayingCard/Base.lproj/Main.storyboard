@@ -25,6 +25,12 @@
                                     <constraint firstAttribute="width" secondItem="mkr-we-m7j" secondAttribute="height" multiplier="5:8" id="1ng-uZ-QYj"/>
                                     <constraint firstAttribute="height" priority="750" constant="1024" id="S5B-dl-hiS"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
